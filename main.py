@@ -2,6 +2,8 @@ import os
 import psycopg2
 from flask import Flask, render_template
 
+VERSION = "v0.1.0"
+
 app = Flask(__name__)
 
 def get_db_connection():
@@ -20,7 +22,7 @@ def index():
     books = cur.fetchall()
     cur.close()
     conn.close()
-    return render_template('index.html', books=books)
+    return render_template('index.html', books=books, version=VERSION)
 
 port = int(os.environ['PORT'])
 app.run(host="0.0.0.0", port=port)
