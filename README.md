@@ -81,11 +81,11 @@ En la carpeta templates agregue el archivo `create.html` y agregue el siguiente 
 
 Agregue la carpeta templates al stage:  
 
-  git add templates
+       git add templates
 
 Ahora haga un commit de la siguiente forma:
 
-  git commit -m "feat: agrega el endpoint create"
+       git commit -m "feat: agrega el endpoint create"
 
 Luego de esto haga push y revise que sus cambios se reflejan en GitHub.
 
