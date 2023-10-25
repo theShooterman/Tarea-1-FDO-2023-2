@@ -15,16 +15,15 @@ from flask import Flask, render_template, request, url_for, redirect
 
 ```
 
-Luego agregue la siguiente ruta al final del archivo `main.py`:
+Luego agregue la siguiente ruta al final del archivo `main.py`, antes de las línea con el comentario `# run the server`
 
 ```python
-# ...
-
-
 @app.route('/create/', methods=('GET', 'POST'))
 def create():
     return render_template('create.html')
 
+
+# run the server 
 ```
 
 
