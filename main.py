@@ -24,5 +24,7 @@ def index():
     conn.close()
     return render_template('index.html', books=books, version=VERSION)
 
+
+# run the server 
 port = int(os.environ['PORT'])
 app.run(host="0.0.0.0", port=port)
