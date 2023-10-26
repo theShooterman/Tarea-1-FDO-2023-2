@@ -169,8 +169,11 @@ Agrega un archivo que se llame `RESPUESTAS.md` y anota allí las siguientes preg
 
 - ¿Si ejecutas el comand `git blame main.py` qué ocurre?
 - Explica cómo funciona el comando log del paso 5
+- ¿Cuántas veces modificó el archivo `README.md` el profesor? ¿Cómo determinaste ese número?
 - Anota los nombres de los integrantes del grupo que realizó la tarea
 
 Recuerda hacer un commit para el archivo `RESPUESTAS.md` y su respectivo push.
+
+# Entrega
 
 Envía un pull request a este repositorio para entregar tu tarea.
